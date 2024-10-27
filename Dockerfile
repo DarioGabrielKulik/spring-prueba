@@ -1,7 +1,7 @@
 # IMAGEN MODELO
 FROM eclipse-temurin:21-jdk
 
-COPY target/target/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # LEVANTAR NUESTRA APLICACION CUANDO EL CONTENEDOR INICIE
 ENTRYPOINT ["java","-jar","/app.jar"]
