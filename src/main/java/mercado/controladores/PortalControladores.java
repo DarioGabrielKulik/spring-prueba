@@ -27,7 +27,7 @@ public class PortalControladores {
     @GetMapping("/mercado")
     public ResponseEntity<?> mercado()  {
 
-        MercadoPagoConfig.setAccessToken("TEST-7357352832189310-031814-e831d46b751cb424c87f5628a8ba69ee-727815939");
+        MercadoPagoConfig.setAccessToken("TOKEN");
 
         PreferenceItemRequest itemRequest = PreferenceItemRequest.builder()
                 .id("1234")
